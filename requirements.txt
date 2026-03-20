@@ -1,5 +1,5 @@
-streamlit
 google-generativeai
+streamlit
 python-dotenv
 pillow
 pytesseract

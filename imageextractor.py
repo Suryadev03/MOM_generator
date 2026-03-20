@@ -1,4 +1,4 @@
-import google.genai as genai
+import google.generativeai as genai
 import cv2
 import numpy as np
 from PIL import Image

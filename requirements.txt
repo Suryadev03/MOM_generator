@@ -3,7 +3,7 @@ streamlit
 python-dotenv
 pillow
 pytesseract
-opencv-python
+opencv-python-headless
 numpy
 pypdf
 python-docx

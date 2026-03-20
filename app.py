@@ -1,4 +1,4 @@
-import google.genai as genai
+import google.generativeai as genai
 import os
 import streamlit as st
 from pdfextractor import text_extractor_pdf

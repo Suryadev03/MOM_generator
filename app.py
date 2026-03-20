@@ -11,6 +11,10 @@ import numpy as np
 from PIL import Image
 import io
 
+import platform
+if platform.system() == "Windows":
+    pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+
 from dotenv import load_dotenv
 load_dotenv() #activate api key
 
